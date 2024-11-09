@@ -56,10 +56,34 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+	
+
+
+
+
+	        /* position: absolute; */
+			left: 0;
+			/* top: 20%; */
+			width: 100%;
+			height: 100%;
+			/* display: flex; */
+			/* align-items: center; */
+			/* justify-content: center; */
+			inset-area: center;
+			top: 0 !important;
+
+	
+
   }
 
 
   @media only screen and (max-width: 600px) {
+
+
+	.button{
+		bottom: 200px;
+	}
+
 
     .wrapper {
       position: absolute;
@@ -70,16 +94,31 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
+
+
+	          /* position: absolute; */
+			  top: 0 !important;
+			  left: 0;
+			  /* top: 20%; */
+			  width: 100%;
+			  height: 100%;
+			  /* display: flex; */
+			  /* align-items: center; */
+			  /* justify-content: center; */
+			  inset-area: center;
+		  
     }
 
   }
   
   .button {
+	bottom: 50px;
+	position: absolute;
     border: solid !important;
     border-radius: 17px !important;
     background: black !important;
     cursor: pointer;
-    position: relative;
+    /* position: relative; */
     z-index: 2;
     -webkit-appearance: none;
     background: none;
